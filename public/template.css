@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 0 90px;
+}
+
+#logo img {
+    margin-right: 80px;
+    height: 45px;
+    filter: invert(1);
+    border: 2px solid black;
+    border-radius: 30%;
+}
+
+#navbar {
+    background-color: black;
+    opacity: 0.9;
+    top: 0;
+    position: sticky;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar li {
+    display: flex;
+    list-style: none;
+    margin: 12px;
+}
+
+#navbar li a {
+    padding: 12px 18px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Itim', cursive;
+    font-size: 1.6em;
+}
+
+#navbar li a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+#footerSection {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    color: whitesmoke;
+    background-color: black;
+}

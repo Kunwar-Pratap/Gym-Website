@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+#heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/public/img/bg-4.jpg') no-repeat center/cover;
+    color: whitesmoke;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.heroContent {
+    max-width: 50vw;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContent h1 {
+    font-size: 3em;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.heroContent p {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+#heroButton {
+    margin: 9px 0;
+}
+
+.btn {
+    padding: 5px 11px;
+    margin: 0 7px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: darkcyan;
+    color: whitesmoke;
+    border: 2px solid darkcyan;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: aqua;
+    border: 2px solid black;
+}
+
+#gymSection {
+    height: 50vh;
+    margin: auto;
+    width: 90vw;
+}
+
+#gymSection h2 {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    padding-top: 27px;
+    font-size: 2.3em;
+}
+
+.dock {
+    width: 28vw;
+    display: inline-block;
+    border: 2px solid rgba(252, 252, 218, 0.835);
+    border-radius: 9px;
+    height: 230px;
+    margin: 27px 12px;
+    background-color: rgb(234, 234, 226);
+}
+
+.dock:hover{
+    background-color: rgb(142, 200, 219);
+    border: 2px solid rgba(105, 192, 221, 0.78);
+    transition: 500ms ease-in-out;
+}
+
+.dock h3 {
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.dock-board {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dock-img {
+    height: 110px;
+    margin: 5px 7px;
+    padding: 0 12px;
+}
+
+.dock-img img {
+    height: inherit;
+}
+
+.dock-content {
+    padding: 0 12px;
+}
+
+.dock-content p {
+    font-family: 'Mitr', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#workoutSection {
+    height: 90vh;
+}
+
+#workoutSection h2 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 2.3em;
+    text-align: center;
+    padding: 14px 0;
+}
+
+#area-img {
+    margin: auto;
+    height: 80vh;
+    max-width: 78vw;
+}
+
+#area-img img {
+    height: 250px;
+    margin: 17px;
+    border-radius: 8px;
+}
